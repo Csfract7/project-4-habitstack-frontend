@@ -1,10 +1,16 @@
 
 import './App.css';
 
+import Main from './components/Main';
+import Footer from './components/Footer'
+import Header from './components/Header'
+
 function App() {
   return (
     <div>
-      Sanity Check
+      <Header />
+      <Main /> 
+      <Footer/>
     </div>
   );
 }
