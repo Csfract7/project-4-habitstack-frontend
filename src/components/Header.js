@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 
 function Header() {
-  const headerStyle = { backgroundColor: 'rgb(255, 196, 0)'}
+  const headerStyle = { backgroundColor: 'rgb(255, 255, 255)'}
   const linkStyle = { marginRight: '10px' };
   
   return (
@@ -14,7 +14,7 @@ function Header() {
         <Container>
           <Navbar.Brand href="home">
             <img 
-              src="/assets/images/logo-patxis.jpg"
+              src="/assets/images/Stackedpng.png"
               alt="Logo"
               width="120"
               height="auto"
@@ -26,8 +26,8 @@ function Header() {
             <Link to="/stack" style={linkStyle}>Stacks</Link>
             <Link to="/progress" style={linkStyle}>Progress</Link>
             <Link to="/calender" style={linkStyle}>Calendar</Link>
-            <Link to="/menu/new" style={linkStyle}>Create New Habit</Link>
-            <Link to="/location/new" style={linkStyle}>Create New Stack</Link>
+            <Link to="/habit/new" style={linkStyle}>Create New Habit</Link>
+            <Link to="/stack/new" style={linkStyle}>Create New Stack</Link>
           </Nav>
         </Container>
       </Navbar>
