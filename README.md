@@ -1,70 +1,86 @@
-# Getting Started with Create React App
+## HabitStack
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## URL: 
+> https://project-4-habitstack-frontend-368611415eda.herokuapp.com/
 
-## Available Scripts
+## Description: 
+> A habit stacking website is a user-friendly online platform designed to help individuals establish and maintain positive routines in their daily lives. It leverages the concept of habit stacking, which involves attaching a new habit to an existing one to facilitate habit formation and productivity. Users can create customized habit stacks by selecting their desired habits and linking them to activities they already do regularly.
 
-In the project directory, you can run:
+ ## Technologies: 
+ > React, Express, Nodejs, Javascript, Date-FNS, Mongo
 
-### `npm start`
+## Installation:
+> Please install the dependancies below after initializing react with create-react-app "Your app Name"
+    
+    "bootstrap": "^5.3.2",
+    "date-fns": "^2.30.0",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.9.1",
+    "react-bulma-components": "^4.1.0",
+    "react-calendar": "^4.6.1",
+    "react-datepicker": "^4.21.0",
+    "react-dom": "^18.2.0",
+    "react-router": "^6.18.0",
+    "react-router-dom": "^6.18.0",
+    "react-scripts": "5.0.1",
+    "startbootstrap-full-width-pics": "^5.0.6",
+    "styled-components": "^6.1.1",
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## User Stories:
+>> **As a user, I want to be able to add a new habit with a name, type, and time, so that I can track my daily, weekly, or monthly routines effectively.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+> **As a user, I want to be able to edit an existing habit's details, such as its name, type, or time, so that I can make adjustments to my habits as my schedule changes.
 
-### `npm test`
+> **As a user, I want to be able to delete a habit from my list, so that I can remove habits I no longer wish to track.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+> **As a user, I want to be able to create a new habit stack with a name, description, and a specific time of day, so that I can group related habits together for efficient tracking.
 
-### `npm run build`
+> **As a user, I want to be able to edit the details of a habit stack, such as its name, description, or time, so that I can keep my stacks organized and relevant.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+> **As a user, I want to be able to add existing habits to a habit stack, so that I can create custom routines that suit my lifestyle.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+> **As a user, I want to be able to remove habits from a habit stack, in case I want to make changes to my routines or if a habit is no longer relevant.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+> **As a user, I want to see a summary of my completed habits for the day, week, or month on the dashboard, so that I can track my progress and stay motivated.
 
-### `npm run eject`
+> **As a user, I want to view a visual representation of my habit stacking progress, such as streaks and statistics, on the progress page, so that I can measure my success and identify areas for improvement.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+> **As a user, I want to access a monthly calendar that shows my habit completion status, so that I can visualize my habits' consistency over time and make adjustments as needed.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+> **As a user, I would like to be able to login with a username and password. 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Trello Board / Tracker
+> https://trello.com/invite/b/gPB6X27o/ATTI540223eb646f98b3aac06e6f2a0280424B02726A/habit-stack
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### MVP Goals
+> **As a user, I want to be able to add a new habit with a name, type, and time, so that I can track my daily, weekly, or monthly routines effectively.
 
-## Learn More
+> **As a user, I want to be able to edit an existing habit's details, such as its name, type, or time, so that I can make adjustments to my habits as my schedule changes.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+> **As a user, I want to be able to delete a habit from my list, so that I can remove habits I no longer wish to track.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+> **As a user, I want to be able to create a new habit stack with a name, description, and a specific time of day, so that I can group related habits together for efficient tracking.
 
-### Code Splitting
+> **As a user, I want to be able to edit the details of a habit stack, such as its name, description, or time, so that I can keep my stacks organized and relevant.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+> **As a user, I want to be able to add existing habits to a habit stack, so that I can create custom routines that suit my lifestyle.
 
-### Analyzing the Bundle Size
+> **As a user, I want to be able to remove habits from a habit stack, in case I want to make changes to my routines or if a habit is no longer relevant.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+> **As a user, I want to see a summary of my completed habits for the day, week, or month on the dashboard, so that I can track my progress and stay motivated.
 
-### Making a Progressive Web App
+> **As a user, I want to view a visual representation of my habit stacking progress, such as streaks and statistics, on the progress page, so that I can measure my success and identify areas for improvement.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+> **As a user, I want to access a monthly calendar that shows my habit completion status, so that I can visualize my habits' consistency over time and make adjustments as needed.
 
-### Advanced Configuration
+## Wireframes
+![wireframes](https://media.git.generalassemb.ly/user/49337/files/efa33d8e-2dec-4d34-943e-63fb92e59324)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## ERD
+![ERD](https://media.git.generalassemb.ly/user/49337/files/5849eca5-c6ac-453e-818f-5dfe705eed36)
 
-### Deployment
+## Stretch Goals
+> As a user, I would like to be able to login with a username and password
+> As a user, I would like to be able to receive notifications for reminders and updates.
+> As a user, I would like fields to be autopopulated between pages for less typing!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
