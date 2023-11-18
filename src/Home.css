@@ -1,80 +1,54 @@
 .hero {
-    font-size: 2rem; 
+    font-size: 2.2rem; /* Slightly larger font size */
+    text-align: center; /* Center text in hero section */
 }
 
-.home-info1 p {
-    font-size: 30px;
-}
-
-.home-info2 p {
-    font-size: 30px;
-}
-
-/* INTRO */
-.home-info1 {
-    background-color: rgb(241, 241, 241);
-    color: #004832;
-}
-
-/* OUR STORY */
-.home-info2 {
-    background-color: #004832; 
-    color: goldenrod;
+.home-info1 p, .home-info2 p {
+    font-size: 22px; /* Slightly larger font size */
+    text-align: justify; /* Justify text for better appearance */
+    line-height: 1.6; /* Increase line height for better spacing */
+    color: #4e5866; /* Grey-blue color */
 }
 
 .see-menu-button a {
-    font-size: 20px; 
+    font-size: 22px; /* Slightly larger font size */
 }
 
-.text-center h5 {
-    margin-bottom: 10px; 
-    font-weight: bold;
-}
-
-.eat-enjoy-repeat {
-    font-size: 115px;
-    margin-bottom: 20px;
-    margin-top: -25px;
-}
-
-.show-centered-container {
+.show-centered-container,
+.columns.is-multiline {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: rgb(255, 255, 255);
+    background-color: #e0e5ec; /* Light grey-blue background color */
+    color: #4e5866; /* Grey-blue lettering */
 }
 
-.columns is-multiline {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: rgb(255, 255, 255);
+/* Adjust image styles */
+.home-info img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0; /* Add margin for better spacing */
 }
 
 @media (max-width: 700px) {
     .hero div {
-        font-size: 2rem; 
+        font-size: 1.8rem; /* Slightly larger font size for smaller screens */
     }
 
     .home-info1 p, .home-info2 p, .text-center p {
-        font-size: 16px;
+        font-size: 18px; /* Slightly larger font size for smaller screens */
     }
 
     .text-center h5 {
         margin-bottom: 1px;
         margin-top: 15px;
-        font-size: 16px;
+        font-size: 18px; /* Slightly larger font size for smaller screens */
     }
-    
+
     .see-menu-button a {
-        font-size: 10px; 
+        font-size: 16px; /* Slightly larger font size for smaller screens */
     }
 
-    .eat-enjoy-repeat {
-        margin-bottom: 0px;
-        margin-top: -17px;
-    }
-
+   
 }
