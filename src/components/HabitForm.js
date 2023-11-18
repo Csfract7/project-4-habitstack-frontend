@@ -60,7 +60,7 @@ const HabitForm = (props) => {
                             <select
                                 id="type"
                                 name="type"
-                                value="New"
+                                placeholder="New"
                                 onChange={(e) => {
                                 handleChange(e);
                                 }}

@@ -8,16 +8,16 @@ const HabitCard = (props) => {
     return (    
         <Card className="column is-3" textAlign='center'>
             <Card.Content>
-                <Card.Header.Title class='is-size-4' style={{ fontWeight: 'bold' }}>
+                <Card.Header.Title className='is-size-4' style={{ fontWeight: 'bold' }}>
                     <ImageCard src={habitItem?.image}/>
                     <br /><br />
                     {habitItem?.name} 
                 </Card.Header.Title>
                 <Card.Content>
                 {habitItem?.description}
-                <p>- {habitItem?.type} -</p> 
-                <p>- {habitItem?.place} -</p>
-                <p>- {habitItem?.completed} -</p>
+                <p><strong>Type:</strong> {habitItem?.type}</p> 
+                <p><strong>Place:</strong> {habitItem?.place}</p>
+                <p><strong>Completed:</strong> {habitItem?.completed}</p>
                 <strong>{habitItem?.time}</strong>
                 <br /><br />
                 

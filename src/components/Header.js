@@ -25,7 +25,7 @@ function Header() {
             <Link to="/habit" style={linkStyle}>Habits</Link>
             <Link to="/stack" style={linkStyle}>Stacks</Link>
             <Link to="/progress" style={linkStyle}>Progress</Link>
-            <Link to="/calender" style={linkStyle}>Calendar</Link>
+            <Link to="/calendar" style={linkStyle}>Calendar</Link>
             <Link to="/habit/new" style={linkStyle}>Create New Habit</Link>
             <Link to="/stack/new" style={linkStyle}>Create New Stack</Link>
           </Nav>

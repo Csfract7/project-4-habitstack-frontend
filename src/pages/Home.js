@@ -31,21 +31,21 @@ const Home = () => {
                 </div>
 
                 <div class="home-info1">
-                    <div class="container-fluid text-center" 
+                    <div className="container-fluid text-center" 
                     style={{ 
                         paddingTop: 'calc(100vmax / 10)', 
                         paddingBottom: 'calc(100vmax / 10)'}}>
                         <p>Inspired from the book Atomic Habits by James Clear, this app will help you to organize Habits, groups of Habits called Stacks, and keep track of your progress!</p>
                     </div>
                 </div>
-                <div class="home-info">
+                <div className="home-info">
                     <div>
                         <img src="https://uploads-ssl.webflow.com/600aeb5b1d32ae45380517ee/63c5c31d5f3ff14d51781c59_21-atomic-habits-visual-book-summary-habit-stacking.png" alt="pizza2" />
                     </div>
                 </div>
 
-                <div class="home-info2">
-                    <div class="container-fluid text-center" 
+                <div className="home-info2">
+                    <div className="container-fluid text-center" 
                     style={{
                         paddingTop: 'calc(80vmax / 10)', 
                         paddingBottom: 'calc(80vmax / 10)'}}>
